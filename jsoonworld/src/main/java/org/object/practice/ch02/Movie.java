@@ -1,5 +1,7 @@
 package org.object.practice.ch02;
 
+import java.time.Duration;
+
 public class Movie {
     private String title;
     private Duration runningTime;

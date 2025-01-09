@@ -1,6 +1,6 @@
 package org.object.practice.ch02;
 
-public class PercentDiscountPolicy extends DiscountPolicy {
+public class PercentDiscountPolicy extends DefaultDiscountPolicy {
     protected double percent;
 
     public PercentDiscountPolicy(double percent, DiscountCondition... conditions) {

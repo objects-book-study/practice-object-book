@@ -13,6 +13,10 @@ public class Screening {
         this.whenScreened = whenScreened;
     }
 
+    public Reservation revere(Customer customer, int audienceCount) {
+        return new Reservation(customer, this, calculateFee(audienceCount), audienceCount)
+    }
+
     public LocalDateTime getStartTime() {
         return whenScreened;
     }
@@ -23,6 +27,10 @@ public class Screening {
 
     public Money getMovieFee() {
         return movie.getFee;
+    }
+
+    private Money calculateFee(int audienceCount) {
+        return movie.calcuateMovieFee(this).times(audienceCount);
     }
 }
 

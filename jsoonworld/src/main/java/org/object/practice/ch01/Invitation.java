@@ -1,4 +1,4 @@
-package org.object.practice;
+package org.object.practice.ch01;
 
 import java.time.LocalDateTime;
 

@@ -26,4 +26,24 @@ public class DiscountCondition {
         }
         return this.sequence == sequence;
     }
+
+    public DiscountConditionType getType() {
+        return type;
+    }
+
+    public int getSequence() {
+        return sequence;
+    }
+
+    public DayOfWeek getDayOfWeek() {
+        return dayOfWeek;
+    }
+
+    public LocalTime getStartTime() {
+        return startTime;
+    }
+
+    public LocalTime getEndTime() {
+        return endTime;
+    }
 }

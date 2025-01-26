@@ -1,5 +1,7 @@
 package org.object.practice.ch04;
 
+import org.object.practice.ch02.Money;
+
 public class Reservation {
     private Customer customer;
     private Screening screening;

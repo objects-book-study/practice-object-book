@@ -33,6 +33,8 @@ public class Screening {
                 }
                 break;
         }
+
+        return movie.calculateNoneDiscountedFee().times(audienceCount);
     }
 
     public Movie getMovie() {

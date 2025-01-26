@@ -55,4 +55,28 @@ public class Movie {
         }
         return false;
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public Duration getRunningTime() {
+        return runningTime;
+    }
+
+    public Money getFee() {
+        return fee;
+    }
+
+    public List<DiscountCondition> getDiscountConditions() {
+        return discountConditions;
+    }
+
+    public Money getDiscountAmount() {
+        return discountAmount;
+    }
+
+    public double getDiscountPercent() {
+        return discountPercent;
+    }
 }

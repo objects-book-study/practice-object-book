@@ -1,8 +1,8 @@
 package org.object.practice.ch04;
 
-import org.object.practice.ch02.DiscountCondition;
 import org.object.practice.ch02.Money;
 
+import java.time.Duration;
 import java.util.Collections;
 import java.util.List;
 

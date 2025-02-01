@@ -18,7 +18,6 @@ public class Event {
         if (from.getDayOfWeek() != schedule.getDayOfWeek() ||
         !from.toLocalTime().equals(schedule.getFrom()) ||
         !duration.equals(schedule.getDuration())) {
-            reschedule(schedule);
             return false;
         }
         return true;
